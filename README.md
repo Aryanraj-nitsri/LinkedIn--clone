@@ -34,6 +34,8 @@ I have learned follwoing things
 
 
 ## Screenshots
+![Screenshot (36)](https://user-images.githubusercontent.com/80038944/178213330-981bc5a8-d65d-4142-bda1-00e367e12ef7.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/80038944/178213495-4298bd3f-d78d-4d56-a70b-fa55fad80a74.png)
 
 
 ## Authors
