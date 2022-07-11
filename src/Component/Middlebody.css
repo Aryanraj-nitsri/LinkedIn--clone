@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.middle_wrapper{
+
+    flex: 0.47;
+}
+.middle_container{
+    /* border: 2px solid red; */
+    background-color: white;
+    border: thin solid lightgray;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.middle_input{
+    display: flex;
+    gap: 1rem;
+}
+.middle_input .MuiAvatar-circular{
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+.middle_form{
+    width: 100%;
+}
+.middle_form>input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 1.5rem;
+    border: thin solid rgba(0, 0, 0, 0.6);
+    outline: 0;
+    color:rgba(0, 0, 0, 0.9) ;
+    font-weight: 600;
+    font-size: 14px;
+}
+.middle_icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle_icon{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.middle_icon:hover{
+    background-color:#f3f2ef ;
+}
+.Icon1 svg{
+   color: #378fe9;
+   font-size: 2.8rem;
+}
+.Icon2 svg{
+    color: #5f9b41;
+    font-size: 2.8rem;
+}
+.Icon3 svg{
+    color: #c37d16;
+    font-size: 2.8rem;
+}
+.Icon4 svg{
+    color: #e16745;
+    font-size: 2.8rem;
+}
+.middle_icon span{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.9) ;
+    line-height: 28px;
+    font-family: 600;
+    font-family: 'Roboto Slab', serif;
+}

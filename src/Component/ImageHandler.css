@@ -1,0 +1,35 @@
+.image_header{
+    display: flex;
+    justify-content: space-between;
+}
+.image_header p{
+    font-size: 28px;
+}
+.image_header svg{
+    font-size: 32px;
+    cursor: pointer;
+}
+.image_divider{
+    margin-top: 1rem;
+    background-color:lightgray;
+}
+.image_button{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.image_button span{
+    font-size: 12px;
+}
+.image_upload{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.progress{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

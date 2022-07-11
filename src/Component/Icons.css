@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.Icon_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  position: relative;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Icon_logo svg {
+  font-size: 2.8rem;
+}
+
+.Icon_logo .MuiAvatar-circular {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.Icon_logo span {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.Icon_logo:first-child{
+    color: black;
+}
+.Icon_logo:first-child::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 75px;
+  height: 1px;
+  bottom: -5px;
+}
+

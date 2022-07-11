@@ -1,0 +1,45 @@
+.Header_container{
+    display: flex;
+    background-color: white;
+    padding: 0.4rem 13%;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 17rem;
+    position: sticky;
+    top: 0;
+    
+}
+.header_leftpart{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.header_logo img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.header_input{
+
+    display: flex;
+    align-items: center;
+    min-width: 28rem;
+   background-color: #eef3f8;
+    border-radius: 0.5rem;
+    padding: 0px 15px;
+}
+.header_input svg{
+    font-size: 20px;
+    color:#756c6c;
+
+}
+.header_input input{
+    background: none;
+    border: none;
+    padding: 1rem;
+    outline: 0;
+}
+.header_rightpart{
+    display: flex;
+    gap: 3rem;
+    position: relative;
+}
